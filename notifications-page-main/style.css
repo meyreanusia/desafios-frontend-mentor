@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,800;1,500&display=swap');
+:root {
+    --cor-fundo: hsl(205, 33%, 90%);
+    --cor-primaria-blue: hsl(219, 85%, 26%);
+    --cor-primaria-red:  hsl(1, 90%, 64%);
+    --cor-nomes: hsl(224, 21%, 14%);
+    --cor-font: hsl(219, 14%, 63%)
+}
+*{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+small, p {
+    color: hsl(219, 14%, 63%);
+}
+strong{
+    color: var(--cor-primaria-blue);
+}
+.notificacao-comentario {
+   color: hsl(219, 12%, 42%)
+}
+
+body{
+    box-sizing: border-box;
+    display: flex;
+    width: auto;
+    background-color: var(--cor-fundo);
+    height: 100vh;
+    justify-content: center;
+    
+}
+.central-notificacao{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+    width: 45rem;
+    height: 49em;
+    background-color: white;
+    border-radius: 15px;
+    
+}
+
+.info-notificacao{
+    display: flex;
+    gap: 30px;
+    width: 44rem;
+    height: 10rem;
+    /* margin-bottom: -30px; */
+    
+}
+.notificacao-numero {
+    display: flex;
+    gap: 10px;
+   color: var(--cor-primaria-blue);
+    margin-left: 20px;
+    margin-right: 350px;
+    margin-top: 10px;
+}
+
+.notificacao-numero div > h3{
+    color: white;
+    text-align: center;
+    background-color: hsl(219, 85%, 26%);
+    width: 30px;
+    height: 20px;
+    padding: 2px;
+    border-radius: 25%;
+}
+
+.notificacao-listagem {
+    display: flex;
+    margin-top: 10px;
+    color: var(--cor-font);
+}
+
+
+
+
+.notificacao-1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 40rem;
+    height: 4em;
+    margin-left: 35px;
+    margin-top: -60px;
+    margin-bottom: -20px;
+    border-radius: 5px;
+    background-color: hsl(210, 60%, 98%);
+}
+.notificacao-1 > div img {
+    width: 3em;
+    padding: 8px;
+}
+.notificacao-1 p {
+    padding: 4px;
+}
+
+
+.notificacao-2{
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-evenly baseline;
+    gap: 10px;
+    width: 40rem;
+    height: 4em;
+    margin-left: 35px;
+    margin-top: 30px;
+    margin-bottom: -20px;
+    border-radius: 5px;
+    background-color: hsl(210, 60%, 98%);
+}
+.notificacao-2 > div img {
+    width: 3em;
+    padding: 5px;
+    
+}
+.notificacao-2 p {
+    
+    padding: 5px;
+}
+
+.notificacao-3{
+    display: flex;
+    flex-wrap: wrap ;
+    gap: 10px;
+    width: 40rem;
+    height: 4em;
+    margin-left: 35px;
+    margin-top: 30px;
+    margin-bottom: -20px;
+    border-radius: 5px;
+    background-color: hsl(210, 60%, 98%);
+}
+.notificacao-3 > div img {
+    width: 3em;
+    padding: 8px;
+    
+}
+.notificacao-3 p {
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.dot {
+    background-color: var(--cor-primaria-red);
+    border: none;
+    height: 0.7rem;
+    border-radius: 100%;
+    margin-left: 5px;
+    
+}
+.notificacao-4{
+    display: flex;
+    flex-wrap: wrap ;
+    gap: 10px;
+    width: 40rem;
+    height: 10em;
+    margin-left: 35px;
+    margin-top: 30px;
+    margin-bottom: -20px;
+    border-radius: 5px;
+   
+}
+.notificacao-4 > div img {
+    width: 3em;
+    padding: 8px;
+    
+}
+.notificacao-4 p {
+    padding: 10px;
+    
+}
+.notificacao-comentario{
+    border: 1px solid gainsboro;
+    width: 28rem;
+    height: 3rem;
+    padding: 20px;
+    margin-left: 80px;
+    margin-top:-30px;
+}
+
+.notificacao-5{
+    display: flex;
+    gap: 10px;
+    width: 40rem;
+    height: 5=6em;
+    margin-left: 35px;
+    margin-top: 30px;
+    margin-bottom: -20px;
+    border-radius: 5px;
+    
+}
+.notificacao-5 > div img {
+    width: 3em;
+    padding: 8px;
+    
+}
+
+.foto-comentario {
+    margin-top: 15px;
+    width: 2.5em;
+    height: 2.5em;
+    margin-left: 8em;
+   
+}
+
+.notificacao-6{
+    display: flex;
+
+    gap: 10px;
+    width: 40rem;
+    height: 6em;
+    margin-left: 35px;
+    margin-top: 30px;
+    margin-bottom: -20px;
+    border-radius: 5px;
+    
+}
+.notificacao-6 > div img {
+    width: 3em;
+    padding: 8px;
+    
+}
+.notificacao-6 p {
+    padding: 10px;
+}
+
+.notificacao-7{
+    display: flex;
+    flex-wrap: wrap ;
+    gap: 10px;
+    width: 40rem;
+    height: 4em;
+    margin-left: 35px;
+    margin-top: 30px;
+    margin-bottom: -20px;
+    border-radius: 5px;
+
+}
+.notificacao-7> div img {
+    width: 3em;
+    padding: 8px;
+    
+}
+.notificacao-7 p {
+    padding: 10px;
+}
+
+
+
+
